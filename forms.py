@@ -5,8 +5,8 @@ from wtforms.validators import DataRequired, URL, Length, Email, ValidationError
 
 
 class EnquiryForm(FlaskForm):
-    Name = StringField("name", validators=[DataRequired()])
+    name = StringField("name", validators=[DataRequired()])
     email = StringField("email", validators=[DataRequired()])
-    Message = review_text = TextAreaField("message", validators=[DataRequired(), Length(min=30)])
+    message = TextAreaField("message", validators=[DataRequired()])
     submit = SubmitField()
 

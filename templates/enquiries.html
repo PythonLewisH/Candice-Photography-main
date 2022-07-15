@@ -4,8 +4,7 @@
 
   <ul class = "navbar-vertical">
     <div class="container-nav">
-      <h1>Candice</h1>
-      <h1>Hudson-Rolf</h1>
+      <h1>Candice Hudson-Rolf</h1>
     </div>
 
     <li><a href="{{url_for('home')}}">About Me</a></li>
@@ -63,7 +62,7 @@
 
 
         <h1>Make an Enquiry</h1>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione </p>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
 
       </div>
 
@@ -71,20 +70,28 @@
 
 <div class="form-div">
 
+  <form method="POST" class="enquiry-form">
+  {{ enquiry_form.hidden_tag() }}
   <table>
     <tr>
       <td>Name</td>
-      <td><input type="text" /></td>
+      <td>{{enquiry_form.name(class_="form-entry")}}</td>
     </tr>
     <tr>
       <td>Email</td>
-      <td><input type="text" /></td>
+      <td>{{enquiry_form.email(class_="form-entry")}}</td>
     </tr>
     <tr>
       <td>Message</td>
-      <td><input type="text" /></td>
+      <td>{{enquiry_form.message(class_="message-entry")}}</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>{{enquiry_form.submit(class_="submit-enquiry-button")}}</td>
     </tr>
   </table>
+
+    </form>
 
 </div>
 

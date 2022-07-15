@@ -29,7 +29,7 @@ images.forEach(image => {
 })
 
 // if somewhere outside the image is clicked, the actice class is removed.
-lightbox.addEventListener('click', e => {
+close.addEventListener('click', e => {
   if (e.target !== e.currentTarget) return
   lightbox.classList.remove('active')
 

@@ -158,7 +158,7 @@ button:focus, button:active {
 
 
 .main-section {
-  margin-left: 22%;
+  margin-left: 20%;
   color: #595959;
   min-height: 100vh;
   width: 78%;
@@ -215,13 +215,13 @@ border: #FFAC92 solid 2px;
 }
 
 .gallery {
-  column-count: 2;
-  column-gap: 8px;
+  column-count: 3;
+  column-gap: 20px;
 }
 
 .image-container {
   position: relative;
-  margin: 8px 0;
+  margin: 0 0 20px 0;
 }
 
 .caption {
@@ -280,7 +280,7 @@ border: #FFAC92 solid 2px;
   top: 2%;
   max-width: 50px;
   margin: 10px;
-
+  cursor: pointer;
 }
 
 .close {
@@ -327,18 +327,79 @@ font-size: 1.5rem;
 }
 
 .form-div table {
-  margin-left: 50px;
-  width: 50%;
+  width: 70%;
 }
 
 .form-div table td {
   padding:5px;
 }
 
-.form-div table td>input{
-width: 60%;
-border: #bdbec0 solid 1px;
+.form-div table td:first-child {
+  width: 70px;
+  text-align: end;
 }
+
+.enquiry-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;}
+
+.form-entry {
+min-width: 100%;
+border: #bdbec0 solid 1px;
+padding: 5px;
+font-size: .9rem;
+}
+
+.form-entry:focus {
+outline:0;
+}
+
+.message-entry {
+min-width: 100%;
+min-height: 150px;
+border: #bdbec0 solid 1px;
+padding: 5px;
+font-size: .9rem;
+}
+
+.message-entry:focus {
+outline:0;
+}
+
+.submit-enquiry-button {
+  float: right;
+  min-width:150px;
+  margin: 10px 0 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: .4em .8em;
+  color: white;
+  background-color: #807F81;
+  border-radius: 1em;
+  border: solid #807F81 1px;
+}
+
+.submit-enquiry-button:hover {
+  color: #FFAC92;
+}
+
+.submit-message-success {
+color: red;
+font-weight: 600;
+}
+
+.thankyou-text p {
+text-align: center;
+}
+
+.thankyou-text h1 {
+text-align: center;
+margin-bottom: 30px;
+font-size: 1.5rem;
+}
+
 
 /* WIDE MONITORS */
 @media (min-width:1400px) {
@@ -367,7 +428,6 @@ border: #bdbec0 solid 1px;
 
 .main-section {
   width: 100%;
-  margin-top:100px;
   margin-left: 0;
 }
 

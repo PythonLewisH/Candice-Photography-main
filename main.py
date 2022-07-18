@@ -33,13 +33,14 @@ def enquiries():
 
         password = os.getenv("PASSWORD")
         my_email = "chr_photos@outlook.com"
-        subject = "MESSAGE RECEIVED FROM PHOTOGRAPHY WEBSITE"
-        message = 'Subject: {}\n\n{}'.format(subject, enquiry_message)
-
+        subject = "ENQUIRY RECEIVED FROM PHOTOGRAPHY WEBSITE"
+        message = 'Subject: {}\n\n{}'.format(subject, f"Enquirer email: {enquiry_email} \n" + f"Enquirer name: "
+                                                                                              f"{enquiry_name} \n" +
+                                             f"Enquirer message: {enquiry_message}")
         server = smtplib.SMTP("smtp-mail.outlook.com", 587)
         server.starttls()
         server.login(my_email, password)
-        server.sendmail(my_email, enquiry_email, message)
+        server.sendmail(my_email, my_email, message)
         server.close()
 
         return render_template("thankyou.html", enquiry_email=enquiry_email, enquiry_message=enquiry_message,

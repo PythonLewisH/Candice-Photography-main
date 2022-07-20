@@ -18,13 +18,13 @@ images.forEach(image => {
     lightbox.classList.add('active');
     const img = document.createElement('img');
     console.log(image.src);
-    if (image.src == "http://127.0.0.1:5000/static/assets/photos/1.jpg") {
+    if (image.src == "https://candice-photography.herokuapp.com/static/assets/photos/1.jpg") {
     img.src = "https://i.ibb.co/10yPyJG/1.jpg";
     }
-    else if (image.src == "http://127.0.0.1:5000/static/assets/photos/Dotty.jpg") {
+    else if (image.src == "https://candice-photography.herokuapp.com/static/assets/photos/Dotty.jpg") {
     img.src = "https://i.ibb.co/qxkTS3z/Dotty.jpg"
     }
-    else if (image.src == "http://127.0.0.1:5000/static/assets/photos/Dottyderpy.jpg") {
+    else if (image.src == "https://candice-photography.herokuapp.com/static/assets/photos/Dottyderpy.jpg") {
     img.src = "https://i.ibb.co/vBLSbTY/Dottyderpy.jpg"
     }
     else {

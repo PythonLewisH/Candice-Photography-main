@@ -151,6 +151,7 @@ button:focus, button:active {
   height: 50px;
   align-items: center;
   margin-bottom: -1px;
+  margin-top:auto;
 }
 
 .footer a {
@@ -300,13 +301,12 @@ border: #FFAC92 solid 2px;
 /* ENQUIRIES PAGE */
 
 .enquiry-div {
-  padding: 5% 15% 2%;
+  padding: 5% 15% 2% 24%;
 }
 
 .enquiry-section {
-  margin-left: 22%;
+  margin-left: 19%;
   color: #595959;
-  width: 78%;
   align-items: center;
   justify-content: center;
 }
@@ -323,6 +323,14 @@ display: block;
 text-align: center;
 margin-bottom: 30px;
 font-size: 1.5rem;
+}
+
+.enquiry-text a {
+color: inherit;
+}
+
+.enquiry-text a:hover {
+color: #FFAC92;
 }
 
 .form-div {
@@ -409,9 +417,16 @@ margin-bottom: 30px;
 font-size: 1.5rem;
 }
 
+.footer-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* WIDE MONITORS */
 @media (min-width:1400px) {
+
 }
 
 
@@ -453,6 +468,7 @@ font-size: 1.5rem;
   width: 60%;
     margin: 0;
     margin-top: -100px;
+    margin-bottom: 20px;
 
 }
 
@@ -461,6 +477,10 @@ font-size: 1.5rem;
 .enquiry-section {
   width: 100%;
   margin-left: 0;
+}
+
+.enquiry-div {
+  padding: 5% 15% 2%;
 }
 
 
@@ -483,7 +503,6 @@ font-size: 1.5rem;
 
 .footer {
   display: flex;
-  margin-top: 100px;
 }
 
 .footer .navbar-icons {
@@ -503,6 +522,7 @@ padding: 0;
 
   .about-right {
     width: 85%;
+   margin-bottom: 20px;
   }
 
   .main-section {

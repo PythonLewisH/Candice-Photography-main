@@ -45,6 +45,9 @@ def enquiries():
 
         return render_template("thankyou.html", enquiry_email=enquiry_email, enquiry_message=enquiry_message,
                                enquiry_name=enquiry_name)
+    elif enquiry_form.errors:
+        flash("Please use a valid email address so that I can get back to you.")
+        return render_template("enquiries.html", enquiry_form=enquiry_form)
     else:
         print(enquiry_form.errors)
         return render_template("enquiries.html", enquiry_form=enquiry_form)

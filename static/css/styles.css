@@ -423,6 +423,10 @@ font-size: 1.5rem;
     flex-direction: column;
 }
 
+.flash {
+color: red;
+}
+
 
 /* WIDE MONITORS */
 @media (min-width:1400px) {

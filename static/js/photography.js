@@ -4,14 +4,33 @@ const lightbox = document.createElement('div')
 lightbox.id = 'lightbox'
 document.body.appendChild(lightbox)
 
+
+
+
+
+
+
 // finds all the .gallery-img elements and adds a click listener, if element is clicked the .active class is added to the lightbox. It also then adds the image and close button to the lightbox
 const close = document.querySelector('.close')
 const images = document.querySelectorAll('.gallery-img')
 images.forEach(image => {
   image.addEventListener('click', e => {
-    lightbox.classList.add('active')
-    const img = document.createElement('img')
-    img.src = image.src
+    lightbox.classList.add('active');
+    const img = document.createElement('img');
+    console.log(image.src);
+    if (image.src == "http://127.0.0.1:5000/static/assets/photos/1.jpg") {
+    img.src = "https://i.ibb.co/10yPyJG/1.jpg";
+    }
+    else if (image.src == "http://127.0.0.1:5000/static/assets/photos/Dotty.jpg") {
+    img.src = "https://i.ibb.co/qxkTS3z/Dotty.jpg"
+    }
+    else if (image.src == "http://127.0.0.1:5000/static/assets/photos/Dottyderpy.jpg") {
+    img.src = "https://i.ibb.co/vBLSbTY/Dottyderpy.jpg"
+    }
+    else {
+    img.src = image.src;
+    }
+
     img.classList.add("main-image")
     const btn = document.createElement('img')
     btn.src = close.src

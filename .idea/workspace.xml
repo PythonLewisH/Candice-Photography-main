@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecfe4cec-6af1-4cc8-86e9-1c7ad685f760" name="Changes" comment="photo change to hosted">
-      <change afterPath="$PROJECT_DIR$/static/assets/photos/Autumnback2-copy.jpg" afterDir="false" />
+    <list default="true" id="ecfe4cec-6af1-4cc8-86e9-1c7ad685f760" name="Changes" comment="some photo change to hosted, some shrunk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Autumn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Autumn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Autumn3-Edit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Autumn3-Edit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Autumnback-copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Autumnback-copy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Autumnback2 copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Autumnfield.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Autumnfield.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/AutumngateEdit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/AutumngateEdit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Dotty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Dotty.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Dottyderpy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Dottyderpy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Familyshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Familyshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/IMG_3059-Edit copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/IMG_3059-Edit copy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/IMG_3093-Edit copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/IMG_3093-Edit copy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Marnie&amp;Sam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Marnie&amp;Sam.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Rachel1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Rachel1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Rachel2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Rachel2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Rachel3copy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Rachel3copy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/Rachel5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/Rachel5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/eye2t.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/eye2t.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/horse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/horse.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/horse1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/horse1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/horse2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/horse2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/horsefence.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/horsefence.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/marnieandleo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/marnieandleo3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/paulaEdit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/paulaEdit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/photos/scratch.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/photos/scratch.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photography.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/photography.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photography.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658129764636</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="some photo change to hosted, some shrunk">
+      <created>1658276320040</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658276320040</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +175,7 @@
     <MESSAGE value="display edits" />
     <MESSAGE value="photo resize" />
     <MESSAGE value="photo change to hosted" />
-    <option name="LAST_COMMIT_MESSAGE" value="photo change to hosted" />
+    <MESSAGE value="some photo change to hosted, some shrunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="some photo change to hosted, some shrunk" />
   </component>
 </project>
